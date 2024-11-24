@@ -54,23 +54,28 @@ a {
       margin: 10px;
     }
     .listas {
-      text-align: center;
+      text-align: justify;
       background-color: #5d1dbdc4;
       border-radius: 0 50px 0 50px;
       width: 400px;
+      max-width: 80%;
       margin: 10px auto 10px auto;
-      padding: 1px;
+      padding: 10px 0 10px 0;
     }
     li {
       text-align: justify;
       width: 200px;
       margin: 0;
+      
     }
     ul {
-      width: 1px;
+   width: 50%;
     }
     .titulo-lista {
       font-size: 20px;
+      margin: 10px;
+      text-align: center;
+      width: 50%;
     }
     h3 {
       font-size: 18px;
@@ -81,7 +86,11 @@ a {
     }
 .lista-secundaria {
   font-size: 12px;
+  width: 20%;
 }
 .display img {
   display: inline;
+}
+.listas .titulo-lista .lista-secundaria li {
+  width: 20%;
 }
